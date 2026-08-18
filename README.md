@@ -144,7 +144,7 @@ Through the project I worked with:
 * Debugging scripts on Linux
 It also helped me understand how relatively small command-line tools can be combined to automate larger workflows.
 
-## 👨‍💻 Author
+## Author
 
 **Angel Edell **
 
