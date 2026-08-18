@@ -1,7 +1,6 @@
-# 🎵 FLAC Music Organizer
+#RaxSounds
 
 A Bash-based Linux utility for automatically organizing FLAC music files using their embedded metadata.
-
 The script reads metadata from FLAC files and organizes music into an **Artist / Album** directory structure, making large music libraries easier to maintain and manage.
 
 ## Features
