@@ -14,7 +14,7 @@ trap 'rm -f "$TEMP_NEW_ALBUM_DIRS" "$TEMP_CONTADOR"' EXIT
 echo "Iniciando organización de archivos FLAC en: $BASE_DIR"
 echo "---"
 
-## 1. Mover archivos .flac a carpetas Artista/Álbum
+## move the files to the folders
 echo "1. Moving flacs..."
 while IFS= read -r -d '' FILE; do
     if [[ "$(dirname "$FILE")" != "$BASE_DIR" ]]; then
@@ -50,7 +50,7 @@ while IFS= read -r -d '' FILE; do
     fi
 done < <(find "$BASE_DIR" -maxdepth 1 -type f -iname "*.flac" -print0)
 
-## 2. Extraer cover.jpg (SOLO de las carpetas de álbum recién creadas)
+##extract cover
 echo "2. Extracting cover image..."
 
 if [[ -s "$TEMP_NEW_ALBUM_DIRS" ]]; then
