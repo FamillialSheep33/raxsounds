@@ -55,20 +55,13 @@ A Linux system with:
 * 
 ## Usage
 
-Clone the repository:
 ```bash
-git clone https://github.com/FamillialSheep33/flac-organizer.git
-cd flac-organizer
+git clone https://github.com/FamillialSheep33/raxsounds.git
+cd raxsounds
+chmod +x raxsounds.sh
+./raxsounds.sh
 ```
-Make the script executable:
-```bash
-chmod +x flac-organizer.sh
-```
-Run it:
 
-```bash
-./flac-organizer.sh
-```
 > The exact configuration and directory paths depend on the version of the script being used.
 
 
